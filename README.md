@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SuperCommerce
+
+A premium full-stack ecommerce website built with Next.js 16, Prisma, PostgreSQL, and Tailwind CSS v4.
+
+## Features
+
+- 🛍️ Full product catalogue with categories, flash deals, and featured products
+- 🔒 Enterprise-grade security — CSP headers, HSTS, XSS protection, SSL
+- 📱 Fully responsive dark UI with glassmorphism design
+- ⚡ Server components with DB fallback for instant load
+- 🗄️ PostgreSQL database with Prisma ORM
+- 🎨 Animated marquee, product cards, category grid, trust section
+
+## Pages
+
+- `/` — Homepage (Hero, Categories, Flash Sale, Featured Products)
+- `/products` — All products
+- `/deals` — Flash deals
+- `/category/[slug]` — Category pages
+- `/product/[slug]` — Product detail
+- `/cart`, `/wishlist`, `/login`, `/register`
+- `/about`, `/blog`, `/careers`, `/contact`, `/help`, `/returns`, `/track`
+- `/privacy`, `/terms`, `/cookies`, `/press`
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Database:** PostgreSQL + Prisma 7
+- **Styling:** Tailwind CSS v4
+- **Language:** TypeScript
+- **Deployment:** Netlify
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
+# Add DATABASE_URL to .env
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deployed on Netlify. Add `DATABASE_URL` as an environment variable in the Netlify dashboard.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Author
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Gurudev** — first full-stack project 🚀
